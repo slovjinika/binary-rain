@@ -15,7 +15,7 @@ This Bash script creates a visually appealing "binary rain" effect in your termi
 - **Color/No-color modes:** Ability to completely disable the color output.
 
 ## Usage
-```binary_rain.sh [-b <num_blocks>] [-s <update_speed>] [-d <block_speed>] [-m <display_mode>] [-p <space_mode>] [-t <separator_mode>] [-c <color_mode>]```
+```binary-rain.sh [-b <num_blocks>] [-s <update_speed>] [-d <block_speed>] [-m <display_mode>] [-p <space_mode>] [-t <separator_mode>] [-c <color_mode>]```
 
 ### Options
 
@@ -31,17 +31,17 @@ This Bash script creates a visually appealing "binary rain" effect in your termi
 
 - Run the script with default settings:
 
-```binary_rain.sh```
+```binary-rain.sh```
 - Display 4 blocks with a background color and no spaces between numbers:
 
-```binary_rain.sh -b 6 -m bg -p nospace```
+```binary-rain.sh -b 6 -m bg -p nospace```
 - Display 3 blocks, update every 0.5 seconds, with foreground color and space separator:
  
-```binary_rain.sh -b 3 -s 0.5 -m fg -t space```
+```binary-rain.sh -b 3 -s 0.5 -m fg -t space```
 
 - Display the binary rain without any color output
   
-```binary_rain.sh -c nocolor```
+```binary-rain.sh -c nocolor```
 
 ▌Prerequisites
 
@@ -60,8 +60,8 @@ This Bash script creates a visually appealing "binary rain" effect in your termi
 
 3. Make the script executable:
 
-```chmod +x binary_rain.sh```
+```chmod +x binary-rain.sh```
 
 4. Run the script:
  
-```binary_rain.sh```
+```binary-rain.sh```
