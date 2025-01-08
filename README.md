@@ -1,3 +1,6 @@
+
+![screenshot](screenshot.gif)
+
 # Binary Rain
 
 This Bash script creates a visually appealing "binary rain" effect in your terminal. It displays streams of random 4-bit binary numbers, with customizable options for colors, spacing, speed, and block display.
